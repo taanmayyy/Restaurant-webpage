@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem 3rem;
+}
+
+logo{
+    display: flex;
+}
+
+nav li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav li:hover{
+    cursor: pointer;
+}
+
+.content{
+    margin: 4rem;
+    padding: rem;
+    border: 1em;
+}
+
+#black{
+    font-size:2.5rem;
+}
+
+#red{
+    font-size:3.5625rem;
+    color: rgb(255, 74, 42);
+}
+
+.img{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.burger__cost{
+    border-style: none;
+    border-radius: 1.0rem;
+    background-color:black;
+    color: white;
+    padding:1rem 2.5rem 1rem 2.5rem;
+    margin-top: 1rem; 
+}
+
+#burger{
+    font-size:2.5rem;
+    font: weight 700rem;
+}
+
+.pizza__cost{
+    border-style: none;
+    border-radius: 1.0rem;
+    background-color:black;
+    color: white;
+    padding:1rem 2.5rem 1rem 2.5rem;
+    margin-top: 1rem; 
+}
+
+#pizza{
+   
+        font-size:2.5rem;
+        font: weight 700rem;
+}
+
+.bread__cost{
+    border-style: none;
+    border-radius: 1.0rem;
+    background-color:black;
+    color: white;
+    padding:1rem 2.5rem 1rem 2.5rem;
+    margin-top: 1rem; 
+}
+
+#garlic__bread{
+   
+    font-size:2.5rem;
+    font: weight 700rem;
+}
